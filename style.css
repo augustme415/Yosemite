@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto',sans-serif;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 50px;
+	cursor: pointer;
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+nav ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #ffd200;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+nav ul li:hover::after{
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+}
+.dd{
+	position: absolute;
+	left: 120px;
+	top: 300px;
+}
+h1{
+	color: #fff;
+	font-size: 100px;
+
+}
+button{
+	ffont-family: 'Poppins', sans-serif;
+}
+p{
+	color: #fff;
+	font-size: 11px;
+	line-height: 15px;
+}
+button{
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+button:hover{
+	border: 1px solid #ffd200;
+	background: #ffd200;
+	transition: 1s;
+}
+.card{
+	width: 220px;
+	height: 260px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(images/pic-1.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+	float: right;
+}
+
+#card {
+	position: absolute;top: 250px;right: 150px; width: 560px;
+}
+
+.card1{
+	background-image: url(images/pic-1.jpg);
+}
+.card2{
+	background-image: url(images/pic-2.jpg);
+}.card3{
+	background-image: url(images/pic-3.jpg);
+}.card4{
+	background-image: url(images/pic-4.jpg);
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+h5{
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+	font-family: 'Poppins', sans-serif;
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 8px;
+}
+
+/*----- footer -----*/
+
+.footer{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.social-menu ul {
+	position: relative;
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+.social-menu ul li {
+	list-style: none;
+	margin: 0 15px;
+}
+.social-menu ul li .fa {
+	font-size: 30px;
+	line-height: 60px;
+	transition: .6s;
+	color: #000;
+
+
+
